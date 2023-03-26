@@ -1,0 +1,111 @@
+h1 {
+    margin: 0;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-top: 1px;
+    text-align: left;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 2px;
+}
+/* external.css */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+            nav ul li a:hover {
+                text-decoration: underline;
+            }
+
+        nav ul li:first-child {
+            margin-left: auto;
+        }
+
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.main-section {
+    background-size: 100% 100%; /* stretch out the image to fill the section */
+    background-position: center;
+    height: 175px;
+    padding: 110px;
+    text-align: center;
+}
+
+    .main-section h2 {
+        margin-top: -90px;
+        text-align: center;
+        color: #f2f2f2;
+    }
+
+
+.second-section {
+    height: 20vh;
+}
+
+.paragraph {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+}
+
+.second-section p {
+}
+
+.MyList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    word-spacing: 10px;
+    padding-top: 20px;
+}
+
+    .MyList:first-child {
+        margin-left: auto;
+        word-spacing: 10px;
+    }
+
+    .MyList a {
+        color: black;
+        text-decoration: none;
+        padding-right: 340px;
+        padding-left: 20px;
+    }
